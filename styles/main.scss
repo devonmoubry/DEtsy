@@ -1,3 +1,77 @@
 body {
+  background-color: #FAF9F5;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+
+header a {
   display: inline-block;
+}
+
+header img {
+  width: 80px;
+  margin: 20px;
+}
+
+header i {
+  margin: 5px;
+  line-height: 20px;
+
+}
+
+.card {
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: 28vw;
+  height: 24vw;
+  overflow: hidden;
+  background-color: white;
+  margin: 9px;
+  display: inline-block;
+  border: 1px solid #E1E3DF;
+  border-bottom-color: #CBCCC9;
+}
+
+.cardAnchorTag {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  width: 28vw;
+  height: 24vw;
+  content: "";
+}
+.cardAnchorTag img {
+  width: 100%;
+  height: 20vw;
+}
+
+.infoCard {
+  margin: 0 6px 6px 6px;
+}
+
+.itemTitle {
+  color: #444;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+  overflow: hidden;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.shopName {
+  color: #9A9A9A;
+  display: inline-block;
+}
+
+.itemPrice {
+  color: #78c042;
+  display: inline-block;
+  float: right;
 }
